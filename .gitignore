@@ -1,0 +1,22 @@
+cat > .gitignore << 'EOF'
+# PyTorch model weights
+*.pt
+*.pth
+*.ckpt
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs
+logs/
+*.log
+
+# Datasets / big assets (optional, adjust as you like)
+assets/
+data/
+datasets/
+
+# Jupyter
+*.ipynb_checkpoints
+EOF
